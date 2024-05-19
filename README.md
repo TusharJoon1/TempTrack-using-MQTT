@@ -9,8 +9,8 @@ Import necessary libraries for MQTT communication, generating random numbers, an
 
 # In suscriber
 Define the temperature threshold and duration for triggering an alarm.
-THRESHOLD = 21.0
-DURATION = 5    -> 5 minutes, assuming one data point per minute
+* THRESHOLD = 21.0
+* DURATION = 5    -> 5 minutes, assuming one data point per minute
 
 Also define a callback function to handle incoming MQTT messages, process the data, and update the state and add a TimeStamp for Each entry.
 
