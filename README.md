@@ -3,9 +3,9 @@
 TempTrack is a simple Flask-based web application designed to monitor sensor data, provide real-time updates, and trigger alarms based on the data received.
 
 Import necessary libraries for MQTT communication, generating random numbers, and handling time delays.
-import paho.mqtt.client as mqtt
-from random import uniform
-import time
+* import paho.mqtt.client as mqtt
+* from random import uniform
+* import time
 
 # In suscriber
 Define the temperature threshold and duration for triggering an alarm.
